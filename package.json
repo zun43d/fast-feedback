@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/core": "0.8.0",
+    "@emotion/core": "10.0.28",
+    "@emotion/styled": "10.0.27",
+    "emotion-theming": "10.0.27",
     "firebase": "8.7.0",
     "firebase-admin": "^9.12.0",
     "next": "11.1.2",
