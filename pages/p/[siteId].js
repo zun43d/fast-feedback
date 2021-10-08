@@ -3,6 +3,7 @@ import { Box, Button, FormControl, FormLabel, Input } from '@chakra-ui/core';
 
 import { getAllFeedback, getAllSites } from '../../lib/db-admin';
 import { useAuth } from '@/lib/auth';
+import Feedback from '@/components/feedback';
 
 export async function getStaticProps(context) {
 	const siteId = context.params.siteId;
