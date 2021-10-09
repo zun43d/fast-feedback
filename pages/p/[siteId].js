@@ -9,7 +9,7 @@ import { getAllFeedback, getAllSites } from '@/lib/db-admin';
 
 export async function getStaticProps(context) {
 	const siteId = context.params.siteId;
-	const { feedback } = await getAllFeedback('designholt');
+	const { feedback } = await getAllFeedback(siteId);
 
 	return {
 		props: {
